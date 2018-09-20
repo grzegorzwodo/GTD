@@ -1,12 +1,11 @@
 spring:
   application:
-    name: eureka-naming-server
+    name: eureka
 
 server:
-  port: 8761
+  port: 9876
   tomcat:
     redirect-context-root: true
-
 
 eureka:
   client:
